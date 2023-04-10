@@ -254,13 +254,14 @@ public class GeneralUi {
             + "    5. Gender: /gender\n"+"    6. Target Weight: /targetWeight\n"
             + "Usage: update /[fieldName] [newInfo]\n"
             + "[add]: Add a meal.\n" + "Usage: add /on [date] /type [MealType] /foods [foods]\n"
-            + "[list]: List either all the foods in the database or all previous added meals.\n"
-            + "Usage: list foods / list meals\n" + "[delete]: Deletes a previously added meal.\n"
+            + "[list]: List all the foods in the database or all previous added meals or all exercises.\n"
+            + "Usage: list [foods/meals/exercise] \n" + "[delete]: Deletes a previously added meal.\n"
             + "Usage: delete [index]\n" + "[filter]: Filters food by calorie content.\n"
             +"[nutrition]: Find the nutrients of a specific kind of food.\n"+"[exercise]: Input a completed exercise.\n"
             + "Usage: exercise /type [exercise name] /description [exercise description] "
             + "/calories [calories burnt] /on [date]\n" + "[track]: Returns your caloric intake from previous days.\n"
-            + "[examples]: Displays examples for inputs\n" + "[bye]: Exits the program.");
+            + "[examples]: Displays examples for inputs\n" + "Usage: examples [meal/exercise] \n" +
+                "[bye]: Exits the program.");
         System.out.println("For any other questions please visit out User Guide.\n");
     }
 }
